@@ -26,8 +26,11 @@ iLoveTheBeatles = (num) => {
   let i = 0;
   do{
     emptyArr.push("I love the Beatles!");
-
   } while(i < num);
-  return emptyArr;
    i++;
+  if(i < 15 ) {
+    return emptyArr[i];
+} else {
+  return emptyArr;
+  }
 }
