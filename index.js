@@ -29,6 +29,6 @@ iLoveTheBeatles = (num) => {
 
   } while(i < num);
    i++;
-   
+
 }
 return emptyArr;
