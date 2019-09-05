@@ -31,6 +31,6 @@ iLoveTheBeatles = (num) => {
   let emptyArr = [];
   do{
     emptyArr.push("I love the beatles!");
-  } while(iincrementVariable() < num);
+  } while(incrementVariable() < num);
   return emptyArr;
 }
