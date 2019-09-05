@@ -29,4 +29,7 @@ iLoveTheBeatles = (num) => {
     return emptyArr;
   } while(i < num);
    i++;
+   if(i >= num) {
+   return emptyArr;
+ }
 }
