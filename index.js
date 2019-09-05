@@ -23,10 +23,14 @@ function johnLennonFacts(facts) {
 
 iLoveTheBeatles = (num) => {
   let emptyArr = [];
-  let i = 0;
+  let i = 0
   do{
-    emptyArr.push("I love the Beatles!");
-    return emptyArr;
+    emptyArr.push("I love the beatles!");
+    if(i < 15 ) {
+      return emptyArr[i];
+    } else {
+      return emptyArr;
+    }
   } while(i < num);
-   i++;
+  i++;
 }
